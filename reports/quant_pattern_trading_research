@@ -1,0 +1,50 @@
+
+THE PATTERN TRADER
+we want to research on the 4 years pattern i was trading,
+We  are trying to answer:
+1. what market behavior repeatedly occur after certain structural conditions?
+
+The strategy is not really:
+Double Top / Double bottom. The actual underlying logic is:
+1. Trend exists
+2. Market pauses / consolidates
+3. Volatility compress
+4. Breakout occurs
+5. Directional expansion follows
+(The patterns are only visual representations).
+
+Quant Variable
+"Trend"(market is bullish  or bearish): Close > MA50 or MA20 > MA50
+"Momentum"(market push upward or downward): = Close.pct_change(20)
+"Consolidation"(compressing/coiling): Volatility = returns.rolling(20).std()
+"Breakout"(price escape structure): Close > rolling_high or Close < rolling_high
+
+WE ARE TESTING THE HYPOTHESIS:
+When EUR/USD is in trend, volatility compresses, and prices breaks out, future returns becomes positive.
+First research hypothesis:
+ Go Long if:
+1. Trend filter Close > MA_50
+2. AND (volatility compression) volatility < rolling_volatility_average
+3. AND Breakout Close > previous 20 day high
+These captures trend, consolidation, breakout ( what your mentor was visually teaching) BUT now objectively measurable
+
+Next:
+We define future return, example: after signal, what happens over 5 days, 20days, 60 days?
+Then:
+We can statistically test:
+1. Average return,
+2. Win rate,
+3. Sharpe
+4. Drawdown
+
+The Main Question:
+Does the market behavior after these conditions differ from randomness?
+
+We may discover that:
+some patterns contain small edge,
+many are random,
+some work only in equities,
+some fail in FX,
+some work only in trends,
+some only after volatility compression,
+some only during macro cycles.

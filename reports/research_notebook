@@ -1,0 +1,53 @@
+EUR/USD RESEARCH
+
+Volatility
+We noticed that, when volatility rises, it tends to stay elevated for a while
+When volatility is low, it tends to remain low for a period
+
+Volatility clustering
+low volatility environment: Market often move slower, mean-reverting, and tighter ranges.
+High volatility environment: Market often become explosive, trading aggressively, and emotionally driven.
+Therefore
+One strategy may work in:
+calm market, but fail in volatile regimes.
+
+The market you traded last month may NOT statistically behave like the market today.
+
+
+MOMENTUM
+recent market direction tends to persist temporarily
+
+We are not assuming momentum exists.
+We are testing statistically wether momentum exists.
+
+
+
+Professionals evaluate strategies NOT by asking "DID IT MAKE MONEY?" but by asking "DID IT PRODUCE STATISTICALLY
+ATTRACTIVE RISK-ADJUSTED BEHAVIOUR?"
+
+We evaluate strategy by looking at:
+1. Sharpe Ratio
+Max drawdown
+
+
+We try to refine the strategy to why it work and not work
+
+A strategy can make money but still be untradable psychologically.
+
+
+From the research:
+Momentum may work best when there is positive momentum, trend is above 50 MA, and sufficient volatility.
+
+WE CLASSIFY THE MARKET STATE
+Regime    Characteristics
+Trending   momentum works
+Ranging    mean reversion works
+High volatility unstable
+Low volatility  smoother
+
+professional system often enable/disable strategy dynamically.
+
+WE EXPERIMENT REGIME TRADING: meaning we only trade when trend is strong enough, momentum align and trend align
+
+
+
